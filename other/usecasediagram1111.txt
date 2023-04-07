@@ -1,0 +1,13 @@
+ @startuml 
+ left to right direction 
+ usecase "add items " 
+ :user: --> (add items )
+ usecase "['view list of products for sale']" 
+ :user: --> (['view list of products for sale'])
+ usecase "['delete products from cart']" 
+ :user: --> (['delete products from cart'])
+ usecase "['checkout products ']" 
+ :user: --> (['checkout products '])
+ usecase "['add credit ']" 
+ :user: --> (['add credit '])
+ @enduml 
